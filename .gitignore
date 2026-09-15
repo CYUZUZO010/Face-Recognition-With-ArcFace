@@ -1,0 +1,77 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==============================
+# IDE / Editor
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# Python cache / testing
+# ==============================
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# ==============================
+# Face database
+# ==============================
+
+data/db/*.npz
+data/db/*.json
+
+# ==============================
+# Face enrollment images
+# ==============================
+
+data/enroll/*
+!data/enroll/.gitkeep
+
+# ==============================
+# Debug / generated images
+# ==============================
+
+data/debug_aligned/*
+!data/debug_aligned/.gitkeep
+
+# ==============================
+# Machine learning models
+# ==============================
+
+models/*.onnx
+models/*.task
+models/*.zip
+
+models/buffalo_l/
+models/arcface/
+models/insightface/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ArcFace model files
+models/buffalo_l/
+models/buffalo_l.zip
