@@ -402,7 +402,7 @@ def main():
     # CAMERA
     # --------------------------------------------------------
 
-    camera_index = 2
+    camera_index = 0
 
     print()
     print(

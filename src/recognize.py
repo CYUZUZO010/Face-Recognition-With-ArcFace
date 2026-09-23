@@ -24,7 +24,7 @@ MODEL_PATH = Path(
 )
 
 # External USB camera
-CAMERA_INDEX = 2
+CAMERA_INDEX = 0
 
 # ------------------------------------------------------------
 # Recognition threshold
